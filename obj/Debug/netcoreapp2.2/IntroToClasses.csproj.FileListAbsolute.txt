@@ -1,0 +1,11 @@
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/bin/Debug/netcoreapp2.2/IntroToClasses.deps.json
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/bin/Debug/netcoreapp2.2/IntroToClasses.runtimeconfig.json
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/bin/Debug/netcoreapp2.2/IntroToClasses.runtimeconfig.dev.json
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/bin/Debug/netcoreapp2.2/IntroToClasses.dll
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/bin/Debug/netcoreapp2.2/IntroToClasses.pdb
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.csproj.CoreCompileInputs.cache
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.AssemblyInfoInputs.cache
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.AssemblyInfo.cs
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.dll
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.pdb
+/Users/nbarrio4/Documents/Personal/docs.microsoft/CSharp/IntroToClasses/obj/Debug/netcoreapp2.2/IntroToClasses.csprojAssemblyReference.cache
