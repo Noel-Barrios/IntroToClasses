@@ -16,7 +16,8 @@ namespace IntroToClasses
 
 
         // lets create a collection of Transaction objects.
-        private List<Transaction> allTransactions = new List<Transaction>();
+        private List<Transaction> 
+        allTransactions = new List<Transaction>();
         public static int acctNumberSeed = 1213;
         public string Number { get; }
         public string Owner { get; set; }
@@ -77,7 +78,20 @@ namespace IntroToClasses
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
+        }
 
+        public string GetAccountHistory()
+        {
+            var report = new System.Text.StringBuilder();
+
+            // the StringBuilder class formats a string that contains one line for each transaction
+            // \t inserts a tab to format the output.
+            report.AppendLine("Date\t\tAmount\t\tNote");
+            foreach(var item in allTransactions)
+            {
+                report.AppendLine($"{item.Date.ToShortDateString()}\t\t{item.Amount}\t\t{item.Notes}");
+            }
+            return report.ToString();
         }
     }
 

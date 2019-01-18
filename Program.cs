@@ -16,26 +16,28 @@ namespace IntroToClasses
             Console.WriteLine($"Your balance is now {account.Balance}");
 
 
-            try
-            {
-                var invalidACcount = new BankAccount("invalid", -55);
-            }
-            catch (ArgumentOutOfRangeException e)
-            {
-                Console.WriteLine("Exception caught creating account with negative balance");
-                Console.WriteLine(e.ToString());
-            }
+            //try
+            //{
+            //    var invalidACcount = new BankAccount("invalid", -55);
+            //}
+            //catch (ArgumentOutOfRangeException e)
+            //{
+            //    Console.WriteLine("Exception caught creating account with negative balance");
+            //    Console.WriteLine(e.ToString());
+            //}
 
 
-            try
-            {
-                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
-            }
-            catch (InvalidOperationException e)
-            {
-                Console.WriteLine("Exception caught trying to overdraw");
-                Console.WriteLine(e.ToString()); 
-            }
+            //try
+            //{
+            //    account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            //}
+            //catch (InvalidOperationException e)
+            //{
+            //    Console.WriteLine("Exception caught trying to overdraw");
+            //    Console.WriteLine(e.ToString()); 
+            //}
+
+            Console.WriteLine(account.GetAccountHistory());
 
         }
     }
